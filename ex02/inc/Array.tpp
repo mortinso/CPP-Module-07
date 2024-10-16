@@ -6,7 +6,7 @@
 /*   By: mortins- <mortins-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 18:00:55 by mortins-          #+#    #+#             */
-/*   Updated: 2024/10/09 19:26:15 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/10/16 14:22:42 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,13 +67,13 @@ T &Array<T>::operator [] ( unsigned int n ) const {
 	if (n >= length)
 		throw(OutOfBounds());
 
-	return (this->array[n]);
+	return (array[n]);
 }
 
 // -----------------------------------Methods-----------------------------------
 template<typename T>
 unsigned int	Array<T>::size( void ) const {
-	return (this->length);
+	return (length);
 }
 
 // -----------------------------------Exceptions--------------------------------

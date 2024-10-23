@@ -6,13 +6,19 @@
 /*   By: mortins- <mortins-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 16:18:30 by mortins-          #+#    #+#             */
-/*   Updated: 2024/10/09 17:00:40 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/10/23 17:49:39 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/test_functions.hpp"
 #include "../inc/iter.hpp"
 #include <iostream>
+
+void	upper( std::string text ) {
+	for (unsigned int i = 0; i < text.length(); i++)
+		text[i] = toupper(text[i]);
+	::ft_cout(text);
+}
 
 int	main( void ) {
 	{ // Int test

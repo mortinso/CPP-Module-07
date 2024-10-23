@@ -7,7 +7,7 @@ SRC_DIR = src
 INC_DIR = inc
 OBJ_DIR = .obj
 
-SRC_FILES = main.cpp test_functions.cpp
+SRC_FILES = main.cpp
 INC_FILES = iter.hpp test_functions.hpp
 
 SRCS = $(addprefix $(SRC_DIR)/, $(SRC_FILES))

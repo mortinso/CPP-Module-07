@@ -6,7 +6,7 @@
 /*   By: mortins- <mortins-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 16:34:44 by mortins-          #+#    #+#             */
-/*   Updated: 2024/10/09 17:01:23 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/10/23 17:50:13 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,5 @@ void	add_one( T &var ) {
 	var += 1;
 	ft_cout(var);
 }
-
-void	upper( std::string text );
 
 #endif

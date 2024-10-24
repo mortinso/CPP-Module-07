@@ -6,7 +6,7 @@
 /*   By: mortins- <mortins-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 16:34:44 by mortins-          #+#    #+#             */
-/*   Updated: 2024/10/23 17:50:13 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/10/24 18:36:53 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ void	ft_cout( T &var ) {
 template<typename T>
 void	add_one( T &var ) {
 	var += 1;
-	ft_cout(var);
 }
 
 #endif

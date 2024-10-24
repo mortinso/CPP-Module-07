@@ -6,12 +6,11 @@
 /*   By: mortins- <mortins-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 18:00:55 by mortins-          #+#    #+#             */
-/*   Updated: 2024/10/16 14:22:42 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/10/24 18:51:51 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 # include "Array.hpp"
-
 
 // Default constructor
 template<typename T>
@@ -34,7 +33,7 @@ Array<T>::Array( const Array &src ) {
 	length = src.size();
 	array = new T[length];
 
-	for (unsigned int i; i < length; i++)
+	for (unsigned int i = 0; i < length; i++)
 		array[i] = src.array[i];
 }
 
